@@ -13,6 +13,6 @@ public class User implements Subscriber{
 
     @Override
     public void handle(String message) {
-        System.out.println(message);
+        System.out.println(name+" " +message);
     }
 }
