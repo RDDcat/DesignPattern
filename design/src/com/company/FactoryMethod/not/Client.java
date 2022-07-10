@@ -4,10 +4,10 @@ import com.company.FactoryMethod.Weapon;
 
 public class Client {
     public static void main(String[] args) {
-        Weapon whiteship = WeaponFactory.orderWeapon("Whiteship", "keesun@mail.com");
-        System.out.println(whiteship);
+        Weapon blackWeapon = WeaponFactory.orderWeapon("blackWeapon", "mail.com");
+        System.out.println(blackWeapon);
 
-        Weapon blackship = WeaponFactory.orderWeapon("Blackship", "keesun@mail.com");
-        System.out.println(blackship);
+        Weapon redWeapon = WeaponFactory.orderWeapon("redWeapon", "mail.com");
+        System.out.println(redWeapon);
     }
 }
