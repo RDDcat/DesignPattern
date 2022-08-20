@@ -1,3 +1,4 @@
+/*
 package com.company.Pacade;
 
 import javax.mail.Message;
@@ -16,10 +17,12 @@ public class EmailSender {
         this.emailSettings = emailSettings;
     }
 
-    /**
+    */
+/**
      * 이메일 보내는 메소드
      * @param emailMessage
-     */
+     *//*
+
     public void sendEmail(EmailMessage emailMessage) {
         Properties properties = System.getProperties();
         properties.setProperty("mail.smtp.host", emailSettings.getHost());
@@ -42,3 +45,4 @@ public class EmailSender {
 
 
 }
+*/

@@ -6,7 +6,7 @@ public class Client {
         EmailSettings emailSettings = new EmailSettings();
         emailSettings.setHost("127.0.0.1");
 
-        EmailSender emailSender = new EmailSender(emailSettings);
+        //EmailSender emailSender = new EmailSender(emailSettings);
 
         EmailMessage emailMessage = new EmailMessage();
         emailMessage.setFrom("보낸사람");
@@ -15,6 +15,6 @@ public class Client {
         emailMessage.setSubject("제목");
         emailMessage.setText("내용");
 
-        emailSender.sendEmail(emailMessage);
+        //emailSender.sendEmail(emailMessage);
     }
 }
