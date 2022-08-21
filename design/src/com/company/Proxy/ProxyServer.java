@@ -4,8 +4,11 @@ public class ProxyServer implements Server {
 
     private Server server;
 
-    public ProxyServer(Server server){
-        this.server = server;
+    public ProxyServer(){
+        if(server == null){
+            this.server = new GameServer();
+        }
+
     }
 
     @Override
